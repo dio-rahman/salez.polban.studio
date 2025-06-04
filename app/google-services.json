@@ -1,0 +1,33 @@
+<<<<<<< HEAD
+ {
+=======
+{
+>>>>>>> 7c1233aed6552be63a6be988affa6f099b2b1f45
+  "project_info": {
+    "project_number": "124674087584",
+    "project_id": "proyeksalez-bafae",
+    "storage_bucket": "proyeksalez-bafae.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:124674087584:android:3ae608433d00d3ff2f07c5",
+        "android_client_info": {
+          "package_name": "com.main.proyek_salez"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCP1CRI52n-d5e7uoWpgLmZpkPuJInaxdE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="putih">#FFFFFF</color>
+    <color name="jingga">#FFDAB9</color>
+    <color name="ungu_tua">#351C4D</color>
+    <color name="oranye">#FEB47B</color>
+    <color name="abu_abu">#D3D3D3</color>
+    <color name="abu_abu_gelap">#FF444444</color>
+    <color name="hijau">#4CAF50</color>
+    <color name="merah">#F44336</color>
+</resources>
