@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Salez - The ultimate Android app for managing your sales, built with Kotlin and Firebase.">
+    <title>Salez</title>
+    <link rel="stylesheet" href="Style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/png" href="https://via.placeholder.com/32?text=PS">
+</head>
+<body>
+<header>
+    <nav aria-label="Main navigation">
+        <div class="logo">Salez</div>
+        <ul>
+            <li><a href="#hero" class="nav-link">Home</a></li>
+            <li><a href="#features" class="nav-link">Features</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section id="hero" aria-labelledby="hero-title">
+        <h1 id="hero-title">Revolutionize Your Sales</h1>
+        <p>The ultimate Android app for managing your sales, built with Kotlin and Firebase.</p>
+        <button id="learn-more" aria-label="Learn more about Salez">Learn More</button>
+        <div class="play-store-button">
+            <a href="#" aria-label="Download Salez from Google Play">
+                <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play">
+            </a>
+        </div>
+    </section>
+
+    <section id="features" aria-labelledby="features-title">
+        <h2 id="features-title">Features</h2>
+        <div class="feature-grid">
+            <div class="feature-card" role="article">
+                <i class="fas fa-sync-alt" aria-hidden="true"></i>
+                <h3>Real-time Data Sync</h3>
+                <p>Keep your data up-to-date across all devices.</p>
+            </div>
+            <div class="feature-card" role="article">
+                <i class="fas fa-users" aria-hidden="true"></i>
+                <h3>User-friendly Interface</h3>
+                <p>Intuitive design for seamless navigation.</p>
+            </div>
+            <div class="feature-card" role="article">
+                <i class="fas fa-shield-alt" aria-hidden="true"></i>
+                <h3>Secure Authentication</h3>
+                <p>Protect your data with robust security measures.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" aria-labelledby="about-title">
+        <h2 id="about-title">About Us</h2>
+        <p>Salez is a project developed by a team of passionate developers aiming to simplify sales management for small businesses.</p>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2025 Salez. All rights reserved.</p>
+    <p>Contact: <a href="mailto:info@proyeksalez.com" aria-label="Contact Salez via email">info@proyeksalez.com</a></p>
+</footer>
+
+<div id="modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-content">
+        <span class="close" aria-label="Close modal">&times;</span>
+        <h2 id="modal-title">More About Salez</h2>
+        <p>Salez is built using the latest technologies to ensure performance and reliability. With features like real-time synchronization, user-friendly interface, and secure authentication, it is designed to meet the needs of modern sales management.</p>
+    </div>
+</div>
+
+<script src="Script.js"></script>
+</body>
+</html>
